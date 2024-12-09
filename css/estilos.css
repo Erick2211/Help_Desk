@@ -37,7 +37,7 @@ body {
 }
 
 .columna-derecha {
-	background-image: url("../../img/blue.jpg");
+	background-image: url("../../../img/blue.jpg");
 	background-size: cover;
 	background-position-x: center;
 }

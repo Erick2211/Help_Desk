@@ -27,14 +27,14 @@ formulario.addEventListener('submit', async(e) => {
 	// }
 
 // Leer Filas
-	// try {
-	// 	const respuesta = await fetch('https://sheet.best/api/sheets/e1bf0443-8bca-42a4-afc2-4f36b4e8fbd5');
+	try {
+	 	const respuesta = await fetch('https://api.sheetbest.com/sheets/19f77c9c-700f-4efb-ba26-d92deae4ae31');
 
-	// 	const contenido = await respuesta.json();
-	// 	console.log(contenido);
-	// } catch(error){
-	// 	console.log(error);
-	// }
+		const contenido = await respuesta.json();
+	 	console.log(contenido);
+	 } catch(error){
+	 	console.log(error);
+	 }
 
 
 // Eliminar Filas
